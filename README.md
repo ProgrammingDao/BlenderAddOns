@@ -2,6 +2,7 @@
 
 Modules for blender add ons.
 
+-------------------------------------
 
 Installation
 -------------
@@ -15,3 +16,14 @@ Usually under build_darwin/bin/Blender.app/Contents/Resources/[Version]/python/b
 https://docs.blender.org/manual/en/latest/advanced/scripting/addon_tutorial.html#install-the-add-on
 - Start using the installed addons by selecting them under Edit -> Menu Search ...
 
+Adding new Addon
+-----------------
+
+- create new python script under src/addons.
+- write the addon code.
+- if the addon doesn't contain module imports besides the one for bpy, then you can just import the python file.
+- otherwise, zip the python file and install the python file instead of the python file.
+
+Notes:
+
+- bl_info shouldn't have its type specified. The addon won't be installed if it does.
