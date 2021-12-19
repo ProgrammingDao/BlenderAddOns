@@ -34,3 +34,8 @@ Debugging
 Pycharm support is very limited here and the best way is to use visual studio with the excellent extension by Jacques Lucke that can be found at : https://marketplace.visualstudio.com/items?itemName=JacquesLucke.blender-development
 
 To debug the addon, run: Blender: Build and Start. Can be accessed with ctrl + shift + p.
+
+Status
+-------
+
+Dropped until blender python package is properly released, it becomes easier to test and maintain the code.
