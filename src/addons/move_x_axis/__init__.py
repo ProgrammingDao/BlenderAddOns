@@ -1,3 +1,4 @@
+
 """
 Addon to move selected object by 1 unit across the X-axis.
 Addon has been copied from Blender documentation.
@@ -7,11 +8,15 @@ from typing import Set
 import bpy
 
 bl_info = {
-    "name": "Move X Axis",
-    "blender": (3, 0, 0),
-    "category": "Object",
+    "name" : "Move X Axis",
+    "author" : "Blender",
+    "description" : "",
+    "blender" : (3, 00, 0),
+    "version" : (0, 0, 1),
+    "location" : "",
+    "warning" : "",
+    "category" : "Object"
 }
-
 
 class ObjectMoveX(bpy.types.Operator):
     """My Object Moving Script"""  # Use this as a tooltip for menu items and buttons.
@@ -46,3 +51,4 @@ def unregister():
 # to test the add-on without having to install it.
 if __name__ == "__main__":
     register()
+
